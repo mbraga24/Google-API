@@ -8,7 +8,7 @@ function initMap() {
     zoomControlOptions: {
       position: google.maps.ControlPosition.TOP_RIGHT
     },
-    mapTypeControl: true,
+    mapTypeControl: false,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.TOP_RIGHT,
       // style: google.maps.MapTypeControlStyle.DROPDOWN_MENU    
