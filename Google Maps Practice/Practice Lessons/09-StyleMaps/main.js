@@ -9,7 +9,7 @@ var UDmapStyle =
     "featureType": "landscape",
     "stylers": [
       { "visibility": "on" },
-      { "color": "#204080" }
+      { "color": "#b2a031" }
     ]
   },{
     "featureType": "water",
@@ -23,49 +23,49 @@ var UDmapStyle =
     "elementType": "geometry.fill",
     "stylers": [
       { "visibility": "on" },
-      { "color": "#204080" }
+      { "color": "#1a2224" }
     ]
   },{
     "featureType": "road",
     "elementType": "geometry.stroke",
     "stylers": [
       { "visibility": "on" },
-      { "color": "#8ea9e4" }
+      { "color": "#c6e2ff" }
     ]
   },{
     "featureType": "transit.line",
     "elementType": "geometry",
     "stylers": [
       { "visibility": "on" },
-      { "color": "#8ea9e4" }
+      { "color": "#e5e52d" }
     ]
   },{
     "featureType": "landscape.man_made",
     "elementType": "geometry.fill",
     "stylers": [
       { "visibility": "on" },
-      { "color": "#204080" }
+      { "color": "#32265b" }
     ]
   },{
     "featureType": "landscape.man_made",
     "elementType": "geometry.stroke",
     "stylers": [
       { "visibility": "on" },
-      { "color": "#8ea9e4" }
+      { "color": "#b2a031" }
     ]
   },{
     "featureType": "poi",
     "elementType": "geometry.fill",
     "stylers": [
       { "visibility": "on" },
-      { "color": "#204080" }
+      { "color": "#558ddd" }
     ]
   },{
     "featureType": "poi",
     "elementType": "geometry.stroke",
     "stylers": [
       { "visibility": "on" },
-      { "color": "#8ea9e4" }
+      { "color": "#3d0f3d" }
     ]
   },{
     "featureType": "road",
@@ -85,14 +85,14 @@ var UDmapStyle =
     "featureType": "administrative",
     "elementType": "geometry",
     "stylers": [
-      { "visibility": "on" },
-      { "color": "#8ea9e4" }
+      { "visibility": "off" },
+      { "color": "#1a2224" }
     ]
   }
 ];
 function initMap() {
   var mapOptions = {
-	zoom: 15,
+	zoom: 7,
 	center: {lat: 40.758904, lng:-73.985128},
 	backgroundColor: "#204080", 
 	styles: UDmapStyle
